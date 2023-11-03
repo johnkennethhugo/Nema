@@ -14,20 +14,17 @@ This portion of the readme provides an overview of the available endpoints and t
 |                   | POST        | `/users/`                | Create an employee entry |
 |                   | PUT         | `/users/:id`             | Edit an employee entry   |
 |                   | DELETE      | `/users/:id`             | Delete an employee entry |
-
 | Client/Customer   | GET         | `/clients/`              | Get all customers   |
 |                   | GET         | `/clients/:id`           | Get customer by ID  |
 |                   | GET         | `/clients/user/:id`      | Get all customers of a user |
 |                   | POST        | `/clients/`              | Create a customer entry |
 |                   | PUT         | `/clients/:id`           | Edit a customer entry   |
 |                   | DELETE      | `/clients/:id`           | Delete a customer entry |
-
 | Service           | GET         | `/services/`             | Get all services   |
 |                   | GET         | `/services/:id`          | Get service by ID  |
 |                   | POST        | `/services/`             | Create a service entry |
 |                   | PUT         | `/services/:id`          | Edit a service entry   |
 |                   | DELETE      | `/services/:id`          | Delete a service entry |
-
 | Task              | GET         | `/tasks/`                | Get all tasks       |
 |                   | GET         | `/tasks/:id`             | Get task by ID      |
 |                   | GET         | `/tasks/user/:id`        | Get all tasks of a user |
