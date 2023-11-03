@@ -1,4 +1,4 @@
-# NEMA (NodeJS, mySQL)
+# NEMA (NodeJS, mySQL) - JKH
 
 Welcome to the Noob Employee Management API documentation. This API is designed to manage employees, clients, services, and tasks.
 
