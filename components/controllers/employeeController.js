@@ -3,6 +3,7 @@ const EmployeeModel = require('../models/employeeModel');
 module.exports = {
   getAllEmployees: (req, res) => {
     EmployeeModel.getAllEmployees((err, results) => {
+      
       if (err) {
         console.error(err);
         return res.status(500).json({ error: 'Internal Server Error' });
