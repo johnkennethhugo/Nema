@@ -8,6 +8,11 @@ app.use('/clients',   require('./components/routes/clientRoutes'));
 app.use('/services',  require('./components/routes/serviceRoutes'));
 app.use('/tasks',     require('./components/routes/taskRoutes'));
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+module.exports = {
+  app,
+  server
+};
